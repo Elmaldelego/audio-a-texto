@@ -21,7 +21,7 @@ def save_uploaded_file(uploaded_file):
         return tmp_file.name
 
 def main():
-    st.title("Transcripción y Traducción de Audio")
+    st.title("Transcripción de Audio")
     
     # Configuración
     task = st.selectbox(
